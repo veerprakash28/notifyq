@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme applied to the Android Window as soon as the process has started.
+         This theme determines the app launch background until the first frame is presented. -->
+    <style name="LaunchTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Show a splash screen on the Android Window while the Flutter view loads -->
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    <!-- Theme applied to the Android Window as soon as the Flutter view is presented -->
+    <style name="NormalTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+</resources>
