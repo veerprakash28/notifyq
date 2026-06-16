@@ -1,7 +1,7 @@
 import 'package:uuid/uuid.dart';
-import '../domain/entities/reminder.dart';
-import '../domain/usecases/reminder_usecases.dart';
-import 'di/service_locator.dart';
+import '../../domain/entities/reminder.dart';
+import '../../domain/usecases/reminder_usecases.dart';
+import '../di/service_locator.dart';
 
 /// Seeds the database with representative sample reminders.
 /// Call once on first launch (check with a SharedPreferences flag).

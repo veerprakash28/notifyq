@@ -1,12 +1,12 @@
 import 'package:get_it/get_it.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import '../core/constants/app_constants.dart';
-import '../data/datasources/hive_reminder_repository.dart';
-import '../data/datasources/notification_service.dart';
-import '../data/models/reminder_model.dart';
-import '../domain/repositories/reminder_repository.dart';
-import '../domain/usecases/reminder_usecases.dart';
+import '../constants/app_constants.dart';
+import '../../data/datasources/hive_reminder_repository.dart';
+import '../../data/datasources/notification_service.dart';
+import '../../data/models/reminder_model.dart';
+import '../../domain/repositories/reminder_repository.dart';
+import '../../domain/usecases/reminder_usecases.dart';
 
 /// Service Locator — single entry point for dependency resolution.
 /// Call [ServiceLocator.init] once at app startup.
