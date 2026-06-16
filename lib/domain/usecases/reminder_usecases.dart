@@ -76,6 +76,6 @@ class GetUpcomingFinancialTotal {
                 r.type == ReminderType.subscription ||
                 r.type == ReminderType.insurance) &&
             r.amount != null)
-        .fold(0.0, (sum, r) => sum + (r.amount ?? 0));
+        .fold<double>(0.0, (sum, r) => sum + (r.amount ?? 0));
   }
 }
